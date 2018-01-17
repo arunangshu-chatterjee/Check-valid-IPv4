@@ -1,0 +1,7 @@
+a=is_valid_IP('12.34.56 .1')
+print(a)
+# Returns False due to the spacing in 3rd field
+
+a=is_valid_IP('12.34.56.1')
+print(a)
+# Returns True
